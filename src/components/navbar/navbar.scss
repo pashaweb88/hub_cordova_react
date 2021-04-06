@@ -1,0 +1,23 @@
+.navbar-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    .nm-left{
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #343438;
+        font-size: 1.6em;
+    }
+    button {
+        border: none;
+        background: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        i{
+            color: #343438;
+            font-size: 2em;
+        }
+    }
+}

@@ -6,6 +6,7 @@
     "scripts": {
         "dev": "webpack serve --mode development --progress --hot --config ./webpack.config.development.js",
         "build": "webpack --mode production --config ./webpack.config.production.js & cordova build",
+        "build:react":"webpack --mode production --config ./webpack.config.production.js",
         "test": "jest"
     },
     "keywords": [
